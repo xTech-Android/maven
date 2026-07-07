@@ -5,9 +5,13 @@ Nội dung repo này được **sinh tự động** bởi script publish từ re
 
 Consume trực tiếp qua `raw.githubusercontent` — **không cần login / PAT**.
 
+| SDK | Coordinate | Version mới nhất |
+|---|---|---|
+| Ads | `com.xtech.sdk:xtechads` | [xem metadata](com/xtech/sdk/xtechads/maven-metadata.xml) |
+
 ## Cách dùng
 
-### 1. Khai báo repo (trong `settings.gradle.kts`)
+### 1. Khai báo repo — `settings.gradle.kts`
 
 ```kotlin
 dependencyResolutionManagement {
@@ -15,7 +19,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
 
-        // Kho public của xTech (SDK ads)
+        // Kho public của xTech (không cần credentials)
         maven { url = uri("https://raw.githubusercontent.com/xTech-Android/maven/main") }
 
         // Các repo mà SDK phụ thuộc (mediation adapters) — BẮT BUỘC khai báo
@@ -27,15 +31,25 @@ dependencyResolutionManagement {
 }
 ```
 
-### 2. Thêm dependency
+### 2. Thêm dependency — `app/build.gradle.kts`
 
 ```kotlin
 dependencies {
-    implementation("com.xtech.sdk:xtechads:<version>")
+    implementation("com.xtech.sdk:xtechads:1.0.2")
 }
 ```
 
-Xem version mới nhất tại thư mục [`com/xtech/sdk/xtechads/`](com/xtech/sdk/xtechads/).
+Hoặc qua version catalog (`gradle/libs.versions.toml`):
+```toml
+[versions]
+xtechads = "1.0.2"
+[libraries]
+xtechads = { module = "com.xtech.sdk:xtechads", version.ref = "xtechads" }
+```
+
+### 3. Xem version có sẵn
+Duyệt thư mục [`com/xtech/sdk/xtechads/`](com/xtech/sdk/xtechads/) hoặc đọc
+[`maven-metadata.xml`](com/xtech/sdk/xtechads/maven-metadata.xml).
 
 ## Lưu ý bảo mật (license whitelist)
 
