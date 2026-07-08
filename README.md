@@ -20,7 +20,7 @@ dependencyResolutionManagement {
         mavenCentral()
 
         // Kho public của xTech (không cần credentials)
-        maven { url = uri("https://raw.githubusercontent.com/xTech-Android/maven/main") }
+        maven { url = uri("https://xtech-android.github.io/maven") }
 
         // Các repo mà SDK phụ thuộc (mediation adapters) — BẮT BUỘC khai báo
         maven { url = uri("https://jitpack.io") }
