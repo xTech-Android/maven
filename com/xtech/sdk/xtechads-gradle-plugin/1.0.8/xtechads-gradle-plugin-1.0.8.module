@@ -30,10 +30,10 @@
           "name": "xtechads-gradle-plugin-1.0.8.jar",
           "url": "xtechads-gradle-plugin-1.0.8.jar",
           "size": 14906,
-          "sha512": "846ea50c25040e9a48776db204e6b324bacc4d045a094aeaee43037af910cd91dd27046412b9718047993ebb60f43e537a8fa1f3fb01bd2bead2f036a6dc3473",
-          "sha256": "a2d2af21b9385de4d20408db687d9bfbe7ca8c0fafc51adcd7f67be2b2422073",
-          "sha1": "b839ba74f5d91a3b53f190c4d05190e1439b78bb",
-          "md5": "54c38681048a116beae2bbf6ba6716bf"
+          "sha512": "778b78a8a8ad61b76531cfdcde99ef065f1ddacda181d500cf28dd51e982de731a1560f57d45fe3c2304139786d7e28fd3be893836a85ac65383f5a57e98b01e",
+          "sha256": "d1049863e16b0426e66821feb96a80fb4e1004871a5ebc168540ee354891ca66",
+          "sha1": "017485e8e294fd2ff38d8bf3ca43a55455441a1f",
+          "md5": "547f6569bfdf454ceb70142a12a5e2b7"
         }
       ]
     },
@@ -53,10 +53,10 @@
           "name": "xtechads-gradle-plugin-1.0.8.jar",
           "url": "xtechads-gradle-plugin-1.0.8.jar",
           "size": 14906,
-          "sha512": "846ea50c25040e9a48776db204e6b324bacc4d045a094aeaee43037af910cd91dd27046412b9718047993ebb60f43e537a8fa1f3fb01bd2bead2f036a6dc3473",
-          "sha256": "a2d2af21b9385de4d20408db687d9bfbe7ca8c0fafc51adcd7f67be2b2422073",
-          "sha1": "b839ba74f5d91a3b53f190c4d05190e1439b78bb",
-          "md5": "54c38681048a116beae2bbf6ba6716bf"
+          "sha512": "778b78a8a8ad61b76531cfdcde99ef065f1ddacda181d500cf28dd51e982de731a1560f57d45fe3c2304139786d7e28fd3be893836a85ac65383f5a57e98b01e",
+          "sha256": "d1049863e16b0426e66821feb96a80fb4e1004871a5ebc168540ee354891ca66",
+          "sha1": "017485e8e294fd2ff38d8bf3ca43a55455441a1f",
+          "md5": "547f6569bfdf454ceb70142a12a5e2b7"
         }
       ]
     }
