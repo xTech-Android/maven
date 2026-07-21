@@ -3,8 +3,8 @@
   <groupId>com.xtech.ads</groupId>
   <artifactId>com.xtech.ads.gradle.plugin</artifactId>
   <versioning>
-    <latest>1.2.4</latest>
-    <release>1.2.4</release>
+    <latest>1.2.5</latest>
+    <release>1.2.5</release>
     <versions>
       <version>1.0.6</version>
       <version>1.0.7</version>
@@ -25,7 +25,8 @@
       <version>1.2.2</version>
       <version>1.2.3</version>
       <version>1.2.4</version>
+      <version>1.2.5</version>
     </versions>
-    <lastUpdated>20260721081101</lastUpdated>
+    <lastUpdated>20260721082833</lastUpdated>
   </versioning>
 </metadata>
