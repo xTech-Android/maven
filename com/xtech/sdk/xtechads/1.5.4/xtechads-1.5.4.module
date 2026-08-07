@@ -627,10 +627,10 @@
           "name": "xtechads-1.5.4-sources.jar",
           "url": "xtechads-1.5.4-sources.jar",
           "size": 3644,
-          "sha512": "af77fe7c06a86d3917f89e386c20d9a6c52a2b2c4b850b2a9bdf227eb07f38a510f93310e93750f3e23e773c8f283f388cc1a9f95c1046091f48defa45fb9eb1",
-          "sha256": "9e73dd2a6b2a5ad3596ee55787dbef1bc6b3530314d964577d907979c43a7bfe",
-          "sha1": "1413fd765c3d4d2dabc4bd950329091ea28f85c5",
-          "md5": "249cfc6b7b44b53c8f77e5c1c02c2a96"
+          "sha512": "eac4521b62be7f928b0df97b3b828d07d66356ae769f8291c11cf11e349f5946281cbbfe6ef295fee4ecec1da5ab39fc9a71714449887f181b6a6fc88ae7ec39",
+          "sha256": "b1de3b450f92ae9f4aa8fe7e1d932bbe830481698506e65c1757b0f6cdc6070f",
+          "sha1": "4ddf222feed0bb3b56dd535472bbadc944383e1e",
+          "md5": "9daea5de5c29df4a29d3af15eb4fe5a0"
         }
       ]
     }
