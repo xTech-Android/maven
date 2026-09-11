@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xtech.sdk",
+    "module": "xtechbilling",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechbilling-1.0.0.aar",
+          "url": "xtechbilling-1.0.0.aar",
+          "size": 88032,
+          "sha512": "16141a2d8cd87c182a90c1880f27a700eebcd7fcacb750e597c131ea13b07fff54e6d1229147bc4c9023310424434bfe67586315b71c892a58fed616e5eeada9",
+          "sha256": "2dc0e6931af0f7d700394b91ebf50490f3c1a58091548f45d55c4b254c5c01f3",
+          "sha1": "a3d0a944d91349c0bb88d8b7f417eac54bac421c",
+          "md5": "f22b0702e95a86fd593e113bf560ddb8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.11.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechbilling-1.0.0.aar",
+          "url": "xtechbilling-1.0.0.aar",
+          "size": 88032,
+          "sha512": "16141a2d8cd87c182a90c1880f27a700eebcd7fcacb750e597c131ea13b07fff54e6d1229147bc4c9023310424434bfe67586315b71c892a58fed616e5eeada9",
+          "sha256": "2dc0e6931af0f7d700394b91ebf50490f3c1a58091548f45d55c4b254c5c01f3",
+          "sha1": "a3d0a944d91349c0bb88d8b7f417eac54bac421c",
+          "md5": "f22b0702e95a86fd593e113bf560ddb8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xtechbilling-1.0.0-sources.jar",
+          "url": "xtechbilling-1.0.0-sources.jar",
+          "size": 8740,
+          "sha512": "ab54b1fcd4739a9758110719717ed41cf02fcdb4006d0b2eaeaa3f04b1b103bc430a10ee93c85ebac73b2459d697afb1194d83f3af27f6c292650058713f4d66",
+          "sha256": "14102eea2c902a79cb448e559437de3381b391ddc9b3df63a35f3ecd22a01bea",
+          "sha1": "c559341864114c5de9b84088fc8c0ac44afad0aa",
+          "md5": "6552cc4a146ff562ef258e68c1ed61cb"
+        }
+      ]
+    }
+  ]
+}
