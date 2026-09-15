@@ -24,6 +24,13 @@
       },
       "dependencies": [
         {
+          "group": "com.xtech.sdk",
+          "module": "xtechcore",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
           "group": "com.android.billingclient",
           "module": "billing",
           "version": {
@@ -53,11 +60,11 @@
         {
           "name": "xtechbilling-1.0.2.aar",
           "url": "xtechbilling-1.0.2.aar",
-          "size": 88032,
-          "sha512": "16141a2d8cd87c182a90c1880f27a700eebcd7fcacb750e597c131ea13b07fff54e6d1229147bc4c9023310424434bfe67586315b71c892a58fed616e5eeada9",
-          "sha256": "2dc0e6931af0f7d700394b91ebf50490f3c1a58091548f45d55c4b254c5c01f3",
-          "sha1": "a3d0a944d91349c0bb88d8b7f417eac54bac421c",
-          "md5": "f22b0702e95a86fd593e113bf560ddb8"
+          "size": 88739,
+          "sha512": "6d4b18d05d700fbdf2bb240257b79c19bec4ceb3fb58dd568bf16de6d100f3a18fa30791d627d32ee09a9afaee2a6e59b8d2d366038a5b4290a3f6c68a45be04",
+          "sha256": "6cca191c4ec1e44e93cd72ee88b00f6fad33fe5e25fc03aa0d49aec02532121e",
+          "sha1": "45cac4f2a22497e037a45736f9738cf0c5fbeaf4",
+          "md5": "270a6dad55bfb43f7b5dace8b476416a"
         }
       ]
     },
@@ -109,6 +116,13 @@
           }
         },
         {
+          "group": "com.xtech.sdk",
+          "module": "xtechcore",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
           "group": "com.android.billingclient",
           "module": "billing",
           "version": {
@@ -138,11 +152,11 @@
         {
           "name": "xtechbilling-1.0.2.aar",
           "url": "xtechbilling-1.0.2.aar",
-          "size": 88032,
-          "sha512": "16141a2d8cd87c182a90c1880f27a700eebcd7fcacb750e597c131ea13b07fff54e6d1229147bc4c9023310424434bfe67586315b71c892a58fed616e5eeada9",
-          "sha256": "2dc0e6931af0f7d700394b91ebf50490f3c1a58091548f45d55c4b254c5c01f3",
-          "sha1": "a3d0a944d91349c0bb88d8b7f417eac54bac421c",
-          "md5": "f22b0702e95a86fd593e113bf560ddb8"
+          "size": 88739,
+          "sha512": "6d4b18d05d700fbdf2bb240257b79c19bec4ceb3fb58dd568bf16de6d100f3a18fa30791d627d32ee09a9afaee2a6e59b8d2d366038a5b4290a3f6c68a45be04",
+          "sha256": "6cca191c4ec1e44e93cd72ee88b00f6fad33fe5e25fc03aa0d49aec02532121e",
+          "sha1": "45cac4f2a22497e037a45736f9738cf0c5fbeaf4",
+          "md5": "270a6dad55bfb43f7b5dace8b476416a"
         }
       ]
     },
@@ -159,10 +173,10 @@
           "name": "xtechbilling-1.0.2-sources.jar",
           "url": "xtechbilling-1.0.2-sources.jar",
           "size": 8740,
-          "sha512": "265333e5f8573e5b0a8a0e4426a77345d0ba679e2f372b7d9fefcac6558fcc625e14c66fd7e08348ebc334062b78a7936932b87943c1819a9c0b7b6206cd7a71",
-          "sha256": "d75a692766fdee71e296073fa72b129ba7542803681919726e52710f00f59976",
-          "sha1": "b0edecaa9a743d6526ff7c19c8e07a99a5978daf",
-          "md5": "e59555d71758e7a9b5f56a9081928f7f"
+          "sha512": "70d7eb0cad700834eda94f22f16a5c857551f2369fe12e2e044c6b0d8a95c1ae57ba21fe40d49a6ba3e15b4b8ac0fe37694364935a2ffa807baf84d07a28e2f1",
+          "sha256": "a25657d737649be274b458f704130618c02830feb5b8691677cf87b53674ca62",
+          "sha1": "74a04378230ca56b92a92553e07353af2a9143ce",
+          "md5": "683506322bfd01f43780e9c74789aeb6"
         }
       ]
     }

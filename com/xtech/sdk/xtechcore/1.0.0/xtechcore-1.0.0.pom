@@ -8,15 +8,15 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.xtech.sdk</groupId>
-  <artifactId>xtechbilling</artifactId>
-  <version>1.0.2</version>
+  <artifactId>xtechcore</artifactId>
+  <version>1.0.0</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>androidx.compose</groupId>
-        <artifactId>compose-bom</artifactId>
-        <version>2025.11.01</version>
+        <groupId>com.google.firebase</groupId>
+        <artifactId>firebase-bom</artifactId>
+        <version>34.7.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -24,26 +24,26 @@
   </dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>com.xtech.sdk</groupId>
-      <artifactId>xtechcore</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.billingclient</groupId>
-      <artifactId>billing</artifactId>
-      <version>9.1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.jakewharton.timber</groupId>
       <artifactId>timber</artifactId>
       <version>5.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.compose.runtime</groupId>
-      <artifactId>runtime</artifactId>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-config</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.10.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -56,24 +56,6 @@
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
       <version>1.17.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-runtime-ktx</artifactId>
-      <version>2.10.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-process</artifactId>
-      <version>2.10.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.insert-koin</groupId>
-      <artifactId>koin-android</artifactId>
-      <version>4.1.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xtech.sdk",
+    "module": "xtechcore",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechcore-1.0.0.aar",
+          "url": "xtechcore-1.0.0.aar",
+          "size": 22732,
+          "sha512": "72f578c2c21dfcdd6d443c0fd6033f9ae7c5f170649ac271ae7052dda4550656a04353ef12def3f32677446255f9984261ad299e922b8ec4fafb2e107263a8a9",
+          "sha256": "ef77df8678440fe2e628a49942cc13ca5c895ddec425c19ffac9a026eb5172ad",
+          "sha1": "0c3feec0d07af61a6342c37ba8bddc3415d0556d",
+          "md5": "1e0b18ca441f34e8a9371a58de817770"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechcore-1.0.0.aar",
+          "url": "xtechcore-1.0.0.aar",
+          "size": 22732,
+          "sha512": "72f578c2c21dfcdd6d443c0fd6033f9ae7c5f170649ac271ae7052dda4550656a04353ef12def3f32677446255f9984261ad299e922b8ec4fafb2e107263a8a9",
+          "sha256": "ef77df8678440fe2e628a49942cc13ca5c895ddec425c19ffac9a026eb5172ad",
+          "sha1": "0c3feec0d07af61a6342c37ba8bddc3415d0556d",
+          "md5": "1e0b18ca441f34e8a9371a58de817770"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xtechcore-1.0.0-sources.jar",
+          "url": "xtechcore-1.0.0-sources.jar",
+          "size": 6364,
+          "sha512": "1fc530226583b150d1e834779d08a67b68859fdbec2a347fb124a0899780a3105e1d556e450c4c8aeaec00e9c052b5b03f80b7d3fd9ec77109df963efc6b2c75",
+          "sha256": "df9940260b3a4735ddb88476cbcf8303750c1e4505c2febb44e10210449ef33a",
+          "sha1": "ea550e0228507f6dda6fb3c385b5518f236cfa96",
+          "md5": "28d03976e7d1e1adedb329ddb8150326"
+        }
+      ]
+    }
+  ]
+}
