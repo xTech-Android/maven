@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xtech.sdk",
+    "module": "xtechads-gradle-plugin",
+    "version": "1.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "xtechads-gradle-plugin-1.7.5.jar",
+          "url": "xtechads-gradle-plugin-1.7.5.jar",
+          "size": 14906,
+          "sha512": "2c028d30acc194654e0774042cae254847bb95c7ddd35fc4be9cc68edba6e944d17943bf205088502bfd9cebdd6ce14a8311f625ff1d872299e868ac108cfdf3",
+          "sha256": "a712aa02837a9b2bf052d47cb650c93180cbe6760d8d534cae65090db2b8a5c4",
+          "sha1": "27b12b7d3fc4e167a1ae34b04d8200a2d855796e",
+          "md5": "9210895a4f2293d8ff8c0e4a247e0a96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "xtechads-gradle-plugin-1.7.5.jar",
+          "url": "xtechads-gradle-plugin-1.7.5.jar",
+          "size": 14906,
+          "sha512": "2c028d30acc194654e0774042cae254847bb95c7ddd35fc4be9cc68edba6e944d17943bf205088502bfd9cebdd6ce14a8311f625ff1d872299e868ac108cfdf3",
+          "sha256": "a712aa02837a9b2bf052d47cb650c93180cbe6760d8d534cae65090db2b8a5c4",
+          "sha1": "27b12b7d3fc4e167a1ae34b04d8200a2d855796e",
+          "md5": "9210895a4f2293d8ff8c0e4a247e0a96"
+        }
+      ]
+    }
+  ]
+}
