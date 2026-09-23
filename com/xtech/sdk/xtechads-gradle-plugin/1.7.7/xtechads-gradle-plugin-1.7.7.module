@@ -30,10 +30,10 @@
           "name": "xtechads-gradle-plugin-1.7.7.jar",
           "url": "xtechads-gradle-plugin-1.7.7.jar",
           "size": 14906,
-          "sha512": "cfcb9de1f2b0477f1328c1dabaa80cf61af4ed7413d5a044cba533a1c8b28ce8c1232286dc6f34346020d42ff06d0f036b5d942a028d8f1504cc8346b0472af4",
-          "sha256": "45c1e35307ab5fa10d9574f096c21e443fb7c1efa7e96e3a509f471a8698a054",
-          "sha1": "7594c0eb796314ebe0966c48811caa734d2517d6",
-          "md5": "e09db3759977d8bcb70aa093b3dc46a7"
+          "sha512": "eb8f8ec7de6146bda36d0b5c2cb250aaac3c5f6bd6c1db99b12201e6a21e5faffa43eedb52bafa0271ddfa7caaab831b9beb9413047abe3ec9235b6b29098dd5",
+          "sha256": "88d0b200970bcb855ce2aadbcc6ee9e484b0ed85496db7183fb32eeb180c643a",
+          "sha1": "5e6f1d7bf5a24026cd630d48ccb0c64373339b9b",
+          "md5": "3d6192bbb1ac1ec4c314e5e177fb6f78"
         }
       ]
     },
@@ -53,10 +53,10 @@
           "name": "xtechads-gradle-plugin-1.7.7.jar",
           "url": "xtechads-gradle-plugin-1.7.7.jar",
           "size": 14906,
-          "sha512": "cfcb9de1f2b0477f1328c1dabaa80cf61af4ed7413d5a044cba533a1c8b28ce8c1232286dc6f34346020d42ff06d0f036b5d942a028d8f1504cc8346b0472af4",
-          "sha256": "45c1e35307ab5fa10d9574f096c21e443fb7c1efa7e96e3a509f471a8698a054",
-          "sha1": "7594c0eb796314ebe0966c48811caa734d2517d6",
-          "md5": "e09db3759977d8bcb70aa093b3dc46a7"
+          "sha512": "eb8f8ec7de6146bda36d0b5c2cb250aaac3c5f6bd6c1db99b12201e6a21e5faffa43eedb52bafa0271ddfa7caaab831b9beb9413047abe3ec9235b6b29098dd5",
+          "sha256": "88d0b200970bcb855ce2aadbcc6ee9e484b0ed85496db7183fb32eeb180c643a",
+          "sha1": "5e6f1d7bf5a24026cd630d48ccb0c64373339b9b",
+          "md5": "3d6192bbb1ac1ec4c314e5e177fb6f78"
         }
       ]
     }
