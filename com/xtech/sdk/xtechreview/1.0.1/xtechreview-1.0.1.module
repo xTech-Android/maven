@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xtech.sdk",
+    "module": "xtechreview",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.play",
+          "module": "review",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechreview-1.0.1.aar",
+          "url": "xtechreview-1.0.1.aar",
+          "size": 16722,
+          "sha512": "98b481c56966a446b9c347d844bd94f183f4c2f19e53740625eae10ecabf6d11ece9264a7a4f5a1dcce60d1da5aa76e6e602c095dbaf3e675d02558cf1840ecb",
+          "sha256": "d2afc9b578f9e96f6f9b3ca694e9a0d0975c5f78bbb6d486cd2129911d1bb33f",
+          "sha1": "29e29b6f37d68bf27652d367ab46345ec2f924a1",
+          "md5": "d790be8fa7891d1e6f6c171c505256c5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "review",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xtechreview-1.0.1.aar",
+          "url": "xtechreview-1.0.1.aar",
+          "size": 16722,
+          "sha512": "98b481c56966a446b9c347d844bd94f183f4c2f19e53740625eae10ecabf6d11ece9264a7a4f5a1dcce60d1da5aa76e6e602c095dbaf3e675d02558cf1840ecb",
+          "sha256": "d2afc9b578f9e96f6f9b3ca694e9a0d0975c5f78bbb6d486cd2129911d1bb33f",
+          "sha1": "29e29b6f37d68bf27652d367ab46345ec2f924a1",
+          "md5": "d790be8fa7891d1e6f6c171c505256c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xtechreview-1.0.1-sources.jar",
+          "url": "xtechreview-1.0.1-sources.jar",
+          "size": 2804,
+          "sha512": "662e340624dbace03517259fcd85f378d1d945966d29b73478b9ecd159d24ee33ba0f3a2348874c8f416556a9534ce9d0267a6e507086660fcf44ca3e6e20657",
+          "sha256": "bfed0f364127d64ad0dbaa491ad8c40cc8eb02b08f9b8cf9be193b708b97698d",
+          "sha1": "3cc639007206225694b2638fea1dee360462987f",
+          "md5": "9188c7aa709530aa3b3b8f05b931f360"
+        }
+      ]
+    }
+  ]
+}
