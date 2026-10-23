@@ -28,14 +28,34 @@
           "module": "timber",
           "version": {
             "requires": "5.0.1"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
             "requires": "2.13.2"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "com.google.firebase",
@@ -43,27 +63,67 @@
           "version": {
             "requires": "34.7.0"
           },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ],
           "attributes": {
             "org.gradle.category": "platform"
           }
         },
         {
           "group": "com.google.firebase",
-          "module": "firebase-config"
+          "module": "firebase-config",
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-ktx",
           "version": {
             "requires": "2.10.0"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
             "requires": "2.2.21"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         }
       ],
       "files": [
@@ -92,21 +152,51 @@
           "module": "core-ktx",
           "version": {
             "requires": "1.17.0"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "com.jakewharton.timber",
           "module": "timber",
           "version": {
             "requires": "5.0.1"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
             "requires": "2.13.2"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "com.google.firebase",
@@ -114,27 +204,67 @@
           "version": {
             "requires": "34.7.0"
           },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ],
           "attributes": {
             "org.gradle.category": "platform"
           }
         },
         {
           "group": "com.google.firebase",
-          "module": "firebase-config"
+          "module": "firebase-config",
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-ktx",
           "version": {
             "requires": "2.10.0"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
             "requires": "2.2.21"
-          }
+          },
+          "excludes": [
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads"
+            },
+            {
+              "group": "com.google.android.gms",
+              "module": "play-services-ads-lite"
+            }
+          ]
         }
       ],
       "files": [
@@ -162,10 +292,10 @@
           "name": "xtechcore-1.0.0-sources.jar",
           "url": "xtechcore-1.0.0-sources.jar",
           "size": 6364,
-          "sha512": "bab222b5c4b3e02bdcedebecb478112c4cd13b6b3f2c7e17d734a1bb019b2e0b6d09434f60bc5993e525670cb91d2ae337b5b27df8b72167f48f416219062918",
-          "sha256": "5610794dd3320d3b9002043ee70d96a1627f9eb51a491508199d26b010221f49",
-          "sha1": "eb23ceacc287dba8e194f0a4b3cbdca4b3d3802c",
-          "md5": "597341c4b70f163c4cb7b9a683cf2c3b"
+          "sha512": "2a21bc94a3410031033868abe6ae7e19324aa60d218437801c8a9b88bacc7fb221a8b01a2ef2c519ac8e7a3a8aee8d893fbb1f95d3cc0ea707f4e3b3bacad5cc",
+          "sha256": "e097b5968827016f089120efae2e682dde69001e13dd81566bedaae599bd26e2",
+          "sha1": "2501ba040ad9208e1b43011d7c3aa24fb0604519",
+          "md5": "00830e6ac53e0a9aec9e24b342ece5c5"
         }
       ]
     }
