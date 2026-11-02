@@ -3,8 +3,8 @@
   <groupId>com.xtech.sdk</groupId>
   <artifactId>xtechads-gradle-plugin</artifactId>
   <versioning>
-    <latest>1.9.3</latest>
-    <release>1.9.3</release>
+    <latest>1.9.2-next-gen</latest>
+    <release>1.9.2-next-gen</release>
     <versions>
       <version>1.0.6</version>
       <version>1.0.7</version>
@@ -99,7 +99,8 @@
       <version>1.9.1-next-gen-v1</version>
       <version>1.9.2</version>
       <version>1.9.3</version>
+      <version>1.9.2-next-gen</version>
     </versions>
-    <lastUpdated>20261028150645</lastUpdated>
+    <lastUpdated>20261102035622</lastUpdated>
   </versioning>
 </metadata>
