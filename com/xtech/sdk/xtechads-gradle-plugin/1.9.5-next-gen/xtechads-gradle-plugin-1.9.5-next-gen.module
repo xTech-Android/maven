@@ -1,0 +1,64 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xtech.sdk",
+    "module": "xtechads-gradle-plugin",
+    "version": "1.9.5-next-gen",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "xtechads-gradle-plugin-1.9.5-next-gen.jar",
+          "url": "xtechads-gradle-plugin-1.9.5-next-gen.jar",
+          "size": 18136,
+          "sha512": "a2e57bbbcf7c120bb78b36eb405bec5f282ce3f09f8cb441f85f24aa7a05e651b4a8068df4863c57a4c215dbb27df5695a42664e03991c3f11f6c38d614fdc42",
+          "sha256": "567c604c46f28b1379b3b09aaead51747d186ed14c3f2d51817292fe8c0275e9",
+          "sha1": "740179eec0253b160b600f0a70c42ea3b8d965cd",
+          "md5": "ff2e69966c8c951010e9f19be4d9aea7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "xtechads-gradle-plugin-1.9.5-next-gen.jar",
+          "url": "xtechads-gradle-plugin-1.9.5-next-gen.jar",
+          "size": 18136,
+          "sha512": "a2e57bbbcf7c120bb78b36eb405bec5f282ce3f09f8cb441f85f24aa7a05e651b4a8068df4863c57a4c215dbb27df5695a42664e03991c3f11f6c38d614fdc42",
+          "sha256": "567c604c46f28b1379b3b09aaead51747d186ed14c3f2d51817292fe8c0275e9",
+          "sha1": "740179eec0253b160b600f0a70c42ea3b8d965cd",
+          "md5": "ff2e69966c8c951010e9f19be4d9aea7"
+        }
+      ]
+    }
+  ]
+}
