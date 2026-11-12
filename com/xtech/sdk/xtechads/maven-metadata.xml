@@ -3,8 +3,8 @@
   <groupId>com.xtech.sdk</groupId>
   <artifactId>xtechads</artifactId>
   <versioning>
-    <latest>1.9.5</latest>
-    <release>1.9.5</release>
+    <latest>1.9.8-next-gen</latest>
+    <release>1.9.8-next-gen</release>
     <versions>
       <version>1.0.2</version>
       <version>1.0.3</version>
@@ -111,7 +111,8 @@
       <version>1.9.4</version>
       <version>1.9.7-next-gen</version>
       <version>1.9.5</version>
+      <version>1.9.8-next-gen</version>
     </versions>
-    <lastUpdated>20261112101042</lastUpdated>
+    <lastUpdated>20261112102012</lastUpdated>
   </versioning>
 </metadata>
