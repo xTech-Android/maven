@@ -30,10 +30,10 @@
           "name": "xtechads-gradle-plugin-1.9.7-next-gen.jar",
           "url": "xtechads-gradle-plugin-1.9.7-next-gen.jar",
           "size": 18136,
-          "sha512": "ede3cf64b14761e13cb5d66a8eec55cba92a3321bac3ebdf31a26cf444a91ae8eb67bf7b9ce7efe4fcfed80b8bbd3a057467b8024f8841d351c910ebfbb2a24f",
-          "sha256": "ff79b629bc5ea40f713b9783e88dde6c86cafd2a98eedd2cb45631e4c632260f",
-          "sha1": "15451a3d70a7c9371c208c7df4a469e252c1bd0c",
-          "md5": "d44706920934f4143d104f03c46b9339"
+          "sha512": "8b86d0584b053d227a84c1475e8e75fccdc561164f887af3bc7630e14cee0692ebac91a315f8dc7059c2acb123b865be17bcecf288c3d14c73316fa3d517bb98",
+          "sha256": "87fd8566de326080d1663b24e57d5e2e2ea815e9be7b40d4e20d6466a27cd957",
+          "sha1": "9f5cd59ef258c8bc783cbdebf5fb38a453c2ab6e",
+          "md5": "9e8e01c322c4c917f4730ed5ac37b275"
         }
       ]
     },
@@ -53,10 +53,10 @@
           "name": "xtechads-gradle-plugin-1.9.7-next-gen.jar",
           "url": "xtechads-gradle-plugin-1.9.7-next-gen.jar",
           "size": 18136,
-          "sha512": "ede3cf64b14761e13cb5d66a8eec55cba92a3321bac3ebdf31a26cf444a91ae8eb67bf7b9ce7efe4fcfed80b8bbd3a057467b8024f8841d351c910ebfbb2a24f",
-          "sha256": "ff79b629bc5ea40f713b9783e88dde6c86cafd2a98eedd2cb45631e4c632260f",
-          "sha1": "15451a3d70a7c9371c208c7df4a469e252c1bd0c",
-          "md5": "d44706920934f4143d104f03c46b9339"
+          "sha512": "8b86d0584b053d227a84c1475e8e75fccdc561164f887af3bc7630e14cee0692ebac91a315f8dc7059c2acb123b865be17bcecf288c3d14c73316fa3d517bb98",
+          "sha256": "87fd8566de326080d1663b24e57d5e2e2ea815e9be7b40d4e20d6466a27cd957",
+          "sha1": "9f5cd59ef258c8bc783cbdebf5fb38a453c2ab6e",
+          "md5": "9e8e01c322c4c917f4730ed5ac37b275"
         }
       ]
     }

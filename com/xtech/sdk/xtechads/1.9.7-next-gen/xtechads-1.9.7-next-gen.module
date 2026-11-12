@@ -523,11 +523,11 @@
         {
           "name": "xtechads-1.9.7-next-gen.aar",
           "url": "xtechads-1.9.7-next-gen.aar",
-          "size": 1753095,
-          "sha512": "95b81911cd720fdd68011d0f42842203aba18bc05133a7f757aecb600924e123eb14211d9e34469bb960b05bf29b91f4aa8fae46845ce485ccf3ec450c419d6c",
-          "sha256": "8f70ad9d1eed51876dd0ec073fbe352fcec04b53a0b95dd8d9326cc73d082019",
-          "sha1": "6f5991d40970c9cc3ac523a2ef69d84daa18e813",
-          "md5": "fcbd28400ea19f1c26fea6276f22a0c7"
+          "size": 1753303,
+          "sha512": "292a95932cd1d9d24be8665cc0a89c675f3447a38835a2e31a3906745dc412795275cdf86eed80a2597c21f803fc0b372243a2a02b4772ab3787c48eb24dc2a7",
+          "sha256": "f27cb8c2fea5d56cf510134e7f03a3df338fe093bcd48f742089a366a657a616",
+          "sha1": "e71f9656a87312f9c8c797045fde000ed1d7db1e",
+          "md5": "f7418d8615585f780f8c4431bba4dbcd"
         }
       ]
     },
@@ -1388,11 +1388,11 @@
         {
           "name": "xtechads-1.9.7-next-gen.aar",
           "url": "xtechads-1.9.7-next-gen.aar",
-          "size": 1753095,
-          "sha512": "95b81911cd720fdd68011d0f42842203aba18bc05133a7f757aecb600924e123eb14211d9e34469bb960b05bf29b91f4aa8fae46845ce485ccf3ec450c419d6c",
-          "sha256": "8f70ad9d1eed51876dd0ec073fbe352fcec04b53a0b95dd8d9326cc73d082019",
-          "sha1": "6f5991d40970c9cc3ac523a2ef69d84daa18e813",
-          "md5": "fcbd28400ea19f1c26fea6276f22a0c7"
+          "size": 1753303,
+          "sha512": "292a95932cd1d9d24be8665cc0a89c675f3447a38835a2e31a3906745dc412795275cdf86eed80a2597c21f803fc0b372243a2a02b4772ab3787c48eb24dc2a7",
+          "sha256": "f27cb8c2fea5d56cf510134e7f03a3df338fe093bcd48f742089a366a657a616",
+          "sha1": "e71f9656a87312f9c8c797045fde000ed1d7db1e",
+          "md5": "f7418d8615585f780f8c4431bba4dbcd"
         }
       ]
     },
@@ -1409,10 +1409,10 @@
           "name": "xtechads-1.9.7-next-gen-sources.jar",
           "url": "xtechads-1.9.7-next-gen-sources.jar",
           "size": 3957,
-          "sha512": "28529e30d0758e1cd62fb9e950525d03ac1dcfc9f2d08c9c2922837bccb3f74c01db8755bdd84465b1d2b9d365b4454765cbed6fe3dbd830d035404c1e6ef1ab",
-          "sha256": "8ff917ee304496975f58ef2948f4053d9fe58fdf568aa75a8d4b539476f1f07a",
-          "sha1": "6934be8261a244eaa2778e76fc6d483cbc53c8fc",
-          "md5": "afb063014b3445b6a509b0f4969d8e81"
+          "sha512": "f2facbc121d2761d880b053814a2eeda6c07fcd9a50e98be8a6d2f6c7368819936b67c2d46feb1c890aa72c1cd22c89a57ea1aa0cf6663291cb6c58508b2af96",
+          "sha256": "1affb4739274731afc1b4115668606aca9e714d27c990e11083e2788fc0073ae",
+          "sha1": "fe1fcb750d2db8a7f9b1d264d6cbe2f4cfbe2cce",
+          "md5": "09ab3e166b4a6130ce3d0fbd25658660"
         }
       ]
     }
