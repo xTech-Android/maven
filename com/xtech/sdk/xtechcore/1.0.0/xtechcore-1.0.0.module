@@ -292,10 +292,10 @@
           "name": "xtechcore-1.0.0-sources.jar",
           "url": "xtechcore-1.0.0-sources.jar",
           "size": 6364,
-          "sha512": "6d69f3b2b8d1dc741305fb4bcc6ae08d5c80f3a512c84946f948ca8e1887c2d3eb2cd03014e174bf3457b01262bc7154ed56dee2e6be2ba6b876986764352b95",
-          "sha256": "77d10ad35f2a7f3cba1ecbf9d125382d2264f90deb26e7070e23c000f8b96a7d",
-          "sha1": "be26fa72b7eae8e6939db41eb06223f8d0d5da89",
-          "md5": "a9caa825e5f4eacd5ba9b94f6526ef0a"
+          "sha512": "ee21c7d0620a55b19e33832fe5450868b0693bc671051605d928cdb0062c65b91127ac49a10e87fa056e27aa93c4139f4a0520699633942ca13ee3d2283079ef",
+          "sha256": "f1a1c58467720ff097539db8d27d364f8c74f82e9a6fe54f21a8e07a1510713e",
+          "sha1": "13b54664938cc4abdd1a150a2f5d6a8d6e46bbd6",
+          "md5": "fcd570d6f696bb3244c9955f97b91aed"
         }
       ]
     }
